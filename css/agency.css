@@ -264,8 +264,8 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-attachment: scroll;        
+    background-image: url(../img/VeCanteen-home.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -289,11 +289,14 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+.upperCase{
+    text-transform: uppercase;
 }
 
 @media(min-width:768px) {
@@ -311,8 +314,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
+        margin-bottom: 50px;     
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
@@ -360,6 +362,7 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    min-height: 380px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -419,6 +422,11 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
+}
+
+.img-responsive{
+    margin: 0 auto;
+    width: 175px;
 }
 
 @media(min-width:767px) {
